@@ -1,0 +1,39 @@
+body {
+    color: rgb(107, 229, 125);
+    background: rgb(0, 0, 0);
+}
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+section {
+    background: rgb(1, 12, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* código omitido */
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.chamada-texto {
+    margin-right: 5%;
+}
+img {
+    height: 200px;
+  }
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
